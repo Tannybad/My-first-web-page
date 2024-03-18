@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+    padding: 0;
+   background-image: url(IMAGE+/FB_IMG_1696014882789.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+h1{
+    text-align: center;
+    color: aliceblue;
+    font-family: justice league;
+    font-size: 40pt;
+}
+.navbar ul{
+    list-style: none;
+    background-color:aliceblue;
+    padding: 0%;
+    margin: 0%;
+    overflow: hidden;
+    justify-content: center;
+}
+.navbar a{
+    color: orange;
+    text-decoration:none;
+    padding: 60px;
+    display: block;
+    text-align: center;
+    font-size: 25pt;
+}
+.navbar a:hover{
+    background-color: hsl(54, 83%, 48%);
+}
+.navbar li{
+    float: left;    
+}
+.road{
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+h3{
+    color:whitesmoke;
+    font-family: Cambria;
+    font-size: 35pt;
+    text-align: center;
+}
+.footer{
+    padding: 1px;
+    border-top: 6px solid orange;
+    color: white;
+    background-color: orange;
+    text-align: center;
+}
+img{
+    padding-right: 10px;
+    margin-left: 20px;
+    width: 3%;
+}
+.go ul{
+    list-style: none;
+}
+.footer .go a{
+    display: none;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.main{
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+    font-size: 30pt;
+    padding-top: 0;
+    padding-bottom: 40px;
+}
+/*-------------------media query------------------*/
+@media screen and (max-width:600px){
+    h1{
+        font-size:30px;
+        color: blue;
+    }
+    .navbar a{
+        font-size: 20px;
+        margin: 1px 20px;
+        display: grid;
+    }
+    h3{
+        color: blue;
+        font-size: 15pt;
+    }
+    .main{
+        font-size: 13pt;
+        padding-top: 0px;
+        padding-bottom: 20px;
+    } 
+    .navbar li{
+        float: none;
+    }
+    .navbar a{
+        padding: 30px;
+    }
+    img{
+        width:15%;
+    }
+}

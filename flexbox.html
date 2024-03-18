@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <style>
+                .wrapper{
+                    width: 100%;
+                    height: auto;
+                    display: flex;
+                    flex-direction: column;
+                }
+                .flex-box{
+                    width: 200px;
+                    height: 200px;
+                    background: linear-gradient(purple,red);
+                    color: white;
+                    font-size: 25px;
+                    text-align: center;
+                    line-height: 200px;
+                    border-radius: 20px;
+                    margin: 10px;
+                }
+                .wrap{
+                    width: 100%;
+                    height: auto;
+                    display: flex;
+                    justify-content: center;
+                    align-items: first baseline;
+                }
+                .flex-boy{
+                    width: 200px;
+                    height: 200px;
+                    background: linear-gradient(purple,red);
+                    color: white;
+                    font-size: 25px;
+                    text-align: center;
+                    line-height: 200px;
+                    border-radius: 20px;
+                    margin: 10px;
+                }
+
+        </style>
+</head>
+<body>
+    <div class="wrapper">
+           <div class="flex-box">
+                BOX 1
+           </div>
+           <div class="flex-box">
+                BOX 2
+           </div>
+           <div class="flex-box">
+                BOX 3
+           </div>
+    </div>
+    <div class="wrap">
+           <div class="flex-boy">
+                BOX 4
+           </div>
+           <div class="flex-boy">
+                BOX 5
+           </div>
+           <div class="flex-boy">
+                BOX 6
+           </div>    
+    </div>
+</body>
+</html>

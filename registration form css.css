@@ -1,0 +1,38 @@
+body{
+    background-image: url(IMAGE+/phone.jpg);
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.register{
+    margin: auto;
+    background: #fff;
+    max-width: 350px;
+    padding: 10px;
+    border-radius: 4px;
+}
+input[type=text]{
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 3px solid;
+    margin: 10px 0;
+}
+input[type=submit]{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    border: none;
+    background: orange;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+}
+h1{
+    text-align: center;
+    color: orange;
+}
